@@ -1,0 +1,39 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="header">
+    <text class="name">张三</text>
+    <text class="info">男 | 25岁 | 本科 | 计算机科学与技术</text>
+  </view>
+
+  <view class="contact">
+    <text class="contact-title">联系方式：</text>
+    <text class="contact-item">手机：123-456-7890</text>
+    <text class="contact-item">邮箱：zhangsan@example.com</text>
+    <text class="contact-item">微信：zhangsanWX</text>
+  </view>
+
+  <view class="introduction">
+    <text class="introduction-title">个人介绍：</text>
+    <text class="introduction-content">
+      我是一名具有三年工作经验的计算机科学与技术专业本科生，熟悉前端开发技术，热爱编程，具有良好的团队合作精神和沟通能力。
+    </text>
+  </view>
+
+  <view class="experience">
+    <text class="experience-title">工作经历：</text>
+    <view class="experience-item">
+      <text class="experience-company">ABC科技有限公司</text>
+      <text class="experience-info">前端工程师 | 2020年至今</text>
+      <text class="experience-content">
+        负责公司前端项目的开发和维护，参与了多个项目的开发工作，熟悉HTML、CSS、JavaScript等前端技术。
+      </text>
+    </view>
+    <view class="experience-item">
+      <text class="experience-company">DEF软件开发公司</text>
+      <text class="experience-info">实习前端工程师 | 2018年-2020年</text>
+      <text class="experience-content">
+        参与公司项目的前端页面设计与开发，熟悉Vue.js框架，对移动端开发有一定经验。
+      </text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,78 @@
+/* index.wxss */
+
+/* 整体容器样式 */
+.container {
+  padding: 20px;
+}
+
+/* 头部样式 */
+.header {
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 14px;
+  color: #666;
+}
+
+/* 联系方式样式 */
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-item {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* 个人介绍样式 */
+.introduction-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.introduction-content {
+  font-size: 14px;
+  color: #333;
+}
+
+/* 工作经历样式 */
+.experience-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.experience-item {
+  margin-bottom: 15px;
+}
+
+.experience-company {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.experience-info {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.experience-content {
+  font-size: 14px;
+  color: #333;
+}
