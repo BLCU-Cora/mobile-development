@@ -1,0 +1,22 @@
+<!-- pages/testList/testList.wxml -->
+
+<view class="container">
+  <!-- 加载动画 -->
+  <view wx:if="{{showLoading}}" class="loading">Loading...</view>
+
+  <!-- 数据列表 -->
+  <view wx:else>
+    <block wx:for="{{dataList}}" wx:key="id">
+      <view class="test-item">
+        <!-- 图片 -->
+        <image src="{{item.src}}" class="test-image"></image>
+        <!-- 名字 -->
+        <view class="test-name">{{item.name}}</view>
+        <!-- 开始按钮 -->
+        <navigator url="/pages/start/start?name={{item.name}}" class="start-button">
+          <view class="start-text">开始</view>
+        </navigator>
+      </view>
+    </block>
+  </view>
+</view>

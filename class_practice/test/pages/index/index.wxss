@@ -1,0 +1,28 @@
+/* pages/termList/termList.wxss */
+
+.container {
+  padding: 20rpx;
+}
+
+.loading {
+  text-align: center;
+  padding: 20rpx;
+}
+
+.item {
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 5rpx;
+}
+
+.name {
+  font-size: 16rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+
+.description {
+  font-size: 14rpx;
+  color: #666;
+}

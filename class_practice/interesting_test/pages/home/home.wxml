@@ -1,0 +1,23 @@
+<!-- pages/home/home.wxml -->
+<view class="container">
+  <view class="header">首页</view>
+  
+  <!-- 海报图片 -->
+  <image class="poster" src="../../pictures/poster.png" mode="widthFix"></image>
+  
+  <!-- 分类列表 -->
+  <view class="category-list">
+    <!-- 传递参数为“爱情” -->
+    <navigator url="/pages/testList/testList?category=爱情" class="category-item">
+      <view class="category-title">爱情测试</view>
+    </navigator>
+    <!-- 传递参数为“性格” -->
+    <navigator url="/pages/testList/testList?category=性格" class="category-item">
+      <view class="category-title">性格测试</view>
+    </navigator>
+    <!-- 传递参数为“心理” -->
+    <navigator url="/pages/testList/testList?category=心理" class="category-item">
+      <view class="category-title">心理测试</view>
+    </navigator>
+  </view>
+</view>

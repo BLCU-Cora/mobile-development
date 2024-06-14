@@ -1,0 +1,16 @@
+<!-- pages/start/start.wxml -->
+
+<view class="container">
+  <!-- 加载动画 -->
+  <view wx:if="{{showLoading}}" class="loading">Loading...</view>
+
+  <!-- 显示描述 -->
+  <view wx:else>
+    <view class="description-label">测试描述：</view>
+    <view class="description">{{description}}</view>
+    <!-- 开始测试按钮 -->
+    <navigator url="/pages/question/question" class="start-button-navigator">
+      <view class="start-button">开始测试</view>
+    </navigator>
+  </view>
+</view>

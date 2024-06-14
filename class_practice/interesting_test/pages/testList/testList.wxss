@@ -1,0 +1,52 @@
+/* pages/testList/testList.wxss */
+
+.container {
+  padding: 20rpx;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20rpx;
+}
+
+.test-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20rpx;
+}
+
+.test-image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+
+.test-name {
+  flex: 1;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.start-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 15rpx 30rpx;
+  border-radius: 10rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 4rpx 6rpx rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.start-text {
+  font-size: 32rpx;
+}

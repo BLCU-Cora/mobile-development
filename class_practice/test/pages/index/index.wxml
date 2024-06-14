@@ -1,0 +1,18 @@
+<!-- pages/termList/termList.wxml -->
+
+<view class="container">
+  <!-- 加载动画 -->
+  <view wx:if="{{showLoading}}" class="loading">Loading...</view>
+
+  <!-- 数据列表 -->
+  <view wx:else>
+    <block wx:for="{{dataList}}" wx:key="id">
+      <view class="item">
+        <view class="name">{{item.name}}</view>
+        <view class="description">{{item.description}}</view>
+      </view>
+      <!-- 添加日志，确保数据正确绑定 -->
+      <view>{{item | json}}</view>
+    </block>
+  </view>
+</view>
