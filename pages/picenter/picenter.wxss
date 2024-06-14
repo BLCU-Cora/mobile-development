@@ -1,0 +1,122 @@
+/* pages/picenter/picenter.wxss */
+
+/* 头部样式 */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px; /* 内边距 */
+}
+
+/* 相册封面样式 */
+.cover-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px; /* 圆角 */
+  margin-right: 20px; /* 右侧外边距 */
+}
+
+/* 相册信息样式 */
+.album-info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 相册名称样式 */
+.album-name {
+  font-size: 18px; /* 字体大小 */
+  font-weight: bold; /* 字体粗细 */
+}
+
+/* 相册描述样式 */
+.album-desc {
+  font-size: 14px; /* 字体大小 */
+  color: #666; /* 字体颜色 */
+  margin-top: 5px; /* 顶部外边距 */
+}
+
+/* 容器样式 */
+.container {
+  margin-top: -80px; /* 顶部外边距 */
+}
+
+/* 图片项样式 */
+.image-item {
+  position: relative;
+  margin-bottom: 20px; /* 底部外边距 */
+  padding: 10px; /* 内边距 */
+  border: 1px solid #e0e0e0; /* 边框 */
+  border-radius: 5px; /* 圆角 */
+}
+
+/* 图片日期盒子样式 */
+.image-date-box {
+  position: absolute;
+  top: 1px;
+  left: -52px; /* 左侧位置 */
+  border: 1px solid #ccc; /* 外边框 */
+  border-radius: 2px; /* 圆角 */
+}
+
+/* 图片日期样式 */
+.image-date {
+  font-size: 8px; /* 字体大小 */
+  color: #888; /* 字体颜色 */
+}
+
+/* 图片框样式 */
+.image-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 两端对齐 */
+  border-radius: 2px; /* 圆角 */
+}
+
+/* 图片样式 */
+.image {
+  width: 180px;
+  height: 180px;
+  margin-top: 15px; /* 顶部外边距 */
+}
+
+/* 图片描述样式 */
+.image-desc {
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  flex-grow: 1;
+  font-size: 10px; /* 字体大小 */
+}
+
+/* 删除按钮样式 */
+.delete-btn {
+  position: absolute;
+  top: 3px;
+  right: 6px;
+  background-color: #ff4d4f; /* 背景颜色 */
+  color: white; /* 字体颜色 */
+  border: none;
+  padding: 1px 1px; /* 内边距 */
+  font-size: 8px; /* 字体大小 */
+  border-radius: 2px; /* 圆角 */
+  cursor: pointer; /* 鼠标样式 */
+}
+
+/* 底部记录按钮样式 */
+.start-record-btn {
+  display: block;
+  cursor: pointer;
+  width: 40%;
+  padding: 8px 17px;
+  background-color: #4caf50; /* 背景颜色 */
+  color: white; /* 字体颜色 */
+  border: none;
+  border-radius: 5px; /* 圆角 */
+  font-size: 16px; /* 字体大小 */
+  text-align: center; /* 文本居中 */
+  margin-top: -95px; /* 顶部外边距 */
+}
+
+/* 鼠标悬停样式 */
+.start-record-btn:hover {
+  background-color: #388e3c; /* 悬停时的背景颜色 */
+}

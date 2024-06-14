@@ -1,0 +1,91 @@
+/* pages/upload/upload.wxss */
+.container {
+  padding: 20px; /* 内边距 */
+  background-color: #f8f8f8; /* 背景颜色 */
+  height: 50vh; /* 高度为视口高度的一半 */
+  display: flex; /* 使用 Flex 布局 */
+  flex-direction: column; /* 垂直方向排列子元素 */
+  align-items: center; /* 水平居中 */
+}
+
+.header {
+  margin-bottom: 20px; /* 底部外边距 */
+}
+
+.album-name {
+  font-size: 20px; /* 相册名称字体大小 */
+  font-weight: bold; /* 相册名称字体加粗 */
+}
+
+.content {
+  width: 100%; /* 宽度100% */
+  max-width: 400px; /* 最大宽度为400px */
+  display: flex; /* 使用 Flex 布局 */
+  flex-direction: column; /* 垂直方向排列子元素 */
+  align-items: center; /* 水平居中 */
+}
+
+.input-field {
+  width: 100%; /* 宽度100% */
+  padding: 10px; /* 内边距 */
+  margin-bottom: 15px; /* 底部外边距 */
+  font-size: 14px; /* 字体大小 */
+  border: 1px solid #ccc; /* 边框 */
+  border-radius: 5px; /* 圆角 */
+}
+
+.upload-container {
+  width: 100%; /* 宽度100% */
+  display: flex; /* 使用 Flex 布局 */
+  justify-content: center; /* 水平居中 */
+  margin-bottom: 15px; /* 底部外边距 */
+}
+
+.upload-btn {
+  width: 100px; /* 按钮宽度 */
+  height: 100px; /* 按钮高度 */
+  background-color: #007aff; /* 背景颜色 */
+  background-size: cover; /* 背景图覆盖整个元素 */
+  background-position: center; /* 背景图居中 */
+  display: flex; /* 使用 Flex 布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  color: white; /* 文字颜色 */
+  font-size: 16px; /* 字体大小 */
+  border: none; /* 去除边框 */
+  border-radius: 5px; /* 圆角 */
+  cursor: pointer; /* 光标样式为指针 */
+}
+
+.upload-btn-text {
+  color: white; /* 文字颜色 */
+}
+
+.date-picker {
+  width: 100%; /* 宽度100% */
+  padding: 10px; /* 内边距 */
+  margin-bottom: 15px; /* 底部外边距 */
+  font-size: 14px; /* 字体大小 */
+  border: 1px solid #ccc; /* 边框 */
+  border-radius: 5px; /* 圆角 */
+  background-color: white; /* 背景颜色 */
+  text-align: center; /* 文字居中 */
+}
+
+.picker {
+  width: 100%; /* 宽度100% */
+}
+
+.publish-btn {
+  background-color: #4caf50; /* 背景颜色 */
+  color: white; /* 文字颜色 */
+  padding: 10px 20px; /* 内边距 */
+  font-size: 16px; /* 字体大小 */
+  border: none; /* 去除边框 */
+  border-radius: 5px; /* 圆角 */
+  cursor: pointer; /* 光标样式为指针 */
+}
+
+.publish-btn:hover {
+  background-color: #388e3c; /* 悬停时背景颜色 */
+}

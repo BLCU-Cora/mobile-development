@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="header">图享空间，欢迎你的到来</view>
+  <image class="poster" src="../../images/logo.png" mode="widthFix"></image>
+  <view class="welcome-list">
+    <button class="welcome-button" bindtap="navigateToHome">进入应用</button>
+  </view>
+</view>

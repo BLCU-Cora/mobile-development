@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* 让内容顶部对齐 */
+  height: 100vh; /* 让容器铺满整个屏幕 */
+  padding-top: 20px; /* 调整顶部间距 */
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-align: center; /* 文字居中对齐 */
+}
+
+.poster {
+  width: 240px; /* 调整图片宽度 */
+  height: auto; /* 自适应高度 */
+  margin-bottom: 30px; /* 调整文字和图片之间的间距 */
+}
+
+.welcome-list {
+  text-align: center;
+}
+
+.welcome-button {
+  padding: 8px 90px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.welcome-button:hover {
+  background-color: #0056b3; /* 悬停时的背景颜色 */
+}

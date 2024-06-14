@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/home/home",
+    "pages/upload/upload",
+    "pages/picenter/picenter"
+  ],
+  "window": {
+    "navigationBarTitleText": "图享空间",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "images/home_icon.png",
+        "selectedIconPath": "images/selected_icon.png"
+      },
+      {
+        "pagePath": "pages/upload/upload",
+        "text": "上传",
+        "iconPath": "images/upload_icon.png",
+        "selectedIconPath": "images/selected_icon.png"
+      },
+      {
+        "pagePath": "pages/picenter/picenter",
+        "text": "图片中心",
+        "iconPath": "images/picenter_icon.png",
+        "selectedIconPath": "images/selected_icon.png"
+      }
+    ],
+    "color": "#999999",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black"
+  },
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+  
+}
