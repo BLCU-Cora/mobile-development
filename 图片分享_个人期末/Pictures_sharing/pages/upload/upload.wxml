@@ -1,0 +1,27 @@
+<!-- pages/upload/upload.wxml -->
+<view class="container">
+  <!-- 头部区域，显示相册名称 -->
+  <view class="header">
+    <text class="album-name">{{name}}</text>
+  </view>
+  
+  <!-- 内容区域，包含想法输入框、上传按钮、日期选择器和发布按钮 -->
+  <view class="content">
+    <input placeholder="请输入你此刻的想法..." bindinput="inputDesc" class="input-field" />
+    
+    <!-- 上传按钮，点击后显示上传的媒体文件 -->
+    <view class="upload-container">
+      <view bindtap="uploadMedia" class="upload-btn" style="background-image: url({{mediaUrl}});">
+        <text class="upload-btn-text" wx:if="{{!mediaUrl}}">📷 上传</text>
+      </view>
+    </view>
+
+    <!-- 日期选择器 -->
+    <picker mode="date" bindchange="bindDateChange" class="date-picker">
+      <view class="picker">{{date}}</view>
+    </picker>
+    
+    <!-- 发布按钮 -->
+    <button bindtap="publish" class="publish-btn">发布</button>
+  </view>
+</view>

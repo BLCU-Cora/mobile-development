@@ -1,0 +1,88 @@
+/* pages/home/home.wxss */
+
+/* 容器样式 */
+.container {
+  padding: 20px; /* 内边距 */
+  background-color: #f8f8f8; /* 背景颜色 */
+  height: 50vh; /* 高度为视口高度的一半 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 头部样式 */
+.header {
+  margin-bottom: 20px; /* 底部外边距 */
+}
+
+/* 上传按钮样式 */
+.upload-btn {
+  width: 100px;
+  height: 100px;
+  background-color: #007aff; /* 背景颜色 */
+  background-size: cover; /* 确保背景图覆盖整个元素 */
+  background-position: center; /* 背景图居中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* 文字颜色 */
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 上传按钮文字样式 */
+.upload-btn-text {
+  color: white; /* 文字颜色 */
+}
+
+/* 上传按钮悬停样式 */
+.upload-btn:hover {
+  background-color: #005bb5; /* 鼠标悬停时的背景颜色 */
+}
+
+/* 内容区域样式 */
+.content {
+  width: 100%;
+  max-width: 400px; /* 最大宽度 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 输入框样式 */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* 相册名称输入框样式 */
+.album-name-input {
+  margin-bottom: 10px;
+}
+
+/* 相册描述输入框样式 */
+.album-desc-input {
+  margin-bottom: 20px;
+}
+
+/* 创建按钮样式 */
+.create-btn {
+  background-color: #4caf50; /* 背景颜色 */
+  color: white; /* 文字颜色 */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 创建按钮悬停样式 */
+.create-btn:hover {
+  background-color: #388e3c; /* 鼠标悬停时的背景颜色 */
+}

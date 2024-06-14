@@ -1,0 +1,20 @@
+<!-- pages/home/home.wxml -->
+<view class="container">
+  <!-- 头部区域，包含上传封面按钮 -->
+  <view class="header">
+    <!-- 上传封面按钮 -->
+    <view bindtap="uploadCover" class="upload-btn" style="background-image: url({{albumCover}});">
+      <text class="upload-btn-text" wx:if="{{!albumCover}}">📷 相册头像</text>
+    </view>
+  </view>
+
+  <!-- 内容区域，包含相册名称和描述的输入框，以及创建按钮 -->
+  <view class="content">
+    <!-- 相册名称输入框 -->
+    <input placeholder="请输入相册名称" bindinput="inputAlbumName" class="input-field album-name-input" />
+    <!-- 相册描述输入框 -->
+    <input placeholder="请输入相册描述" bindinput="inputAlbumDesc" class="input-field album-desc-input" />
+    <!-- 创建按钮 -->
+    <button bindtap="createAlbum" class="create-btn">创建</button>
+  </view>
+</view>
